@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Class from "./class/Class"
+import Arrow from "./components/Arrow"
 
 function App() {
   const [hello, setHello] = useState("")
@@ -15,6 +16,7 @@ function App() {
           onChange={(e) => { setHello(e.target.value) }}
         />
         <p><Class/></p>
+        <p><Arrow/></p>
       </div>
     </>
   )
