@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Class from "./class/Class"
 import Arrow from "./components/Arrow"
+import Map from "./components/Map"
 
 function App() {
   const [hello, setHello] = useState("")
@@ -17,6 +18,7 @@ function App() {
         />
         <p><Class/></p>
         <p><Arrow/></p>
+        <Map/>
       </div>
     </>
   )
