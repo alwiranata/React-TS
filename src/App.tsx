@@ -2,6 +2,7 @@ import { useState } from "react"
 import Class from "./class/Class"
 import Arrow from "./components/Arrow"
 import Map from "./components/Map"
+import Destructuring from "./components/Destructuring"
 
 function App() {
   const [hello, setHello] = useState("")
@@ -18,7 +19,8 @@ function App() {
         />
         <p><Class/></p>
         <p><Arrow/></p>
-        <Map/>
+        <p><Map/></p>
+        <p><Destructuring/></p>
       </div>
     </>
   )
