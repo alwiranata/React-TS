@@ -36,7 +36,7 @@ const Cars2 : typeCar = {
 
 
 const Destructuring = () =>{
-
+    
     const mergedCars = [...[Cars1 , Cars2]]
 
     const myCar = (...cars : typeCar[])=>{
