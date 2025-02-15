@@ -5,7 +5,8 @@ import Map from "./components/Map"
 import Destructuring from "./components/Destructuring"
 import { Modules, name, profile } from "./components/Modules"
 import TernaryOperator from "./components/TernaryOperator"
-
+import Component from "./components/Components"
+import ClassComponent from "./components/Class"
 function App() {
   const [hello, setHello] = useState("")
   const card = {name , profile} 
@@ -27,6 +28,8 @@ function App() {
         <p>My profile = {card.profile}</p>
         <p><Modules/></p>
         <p><TernaryOperator/></p>
+        <p><Component/></p>
+        <p><ClassComponent name="toyota"/></p>
       </div>
     </>
   )
