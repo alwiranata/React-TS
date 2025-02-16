@@ -8,6 +8,7 @@ import TernaryOperator from "./components/TernaryOperator"
 import Component from "./components/Components"
 import ClassComponent from "./components/Class"
 import {GetProps, GetDatas}  from "./components/Props"
+import Football from "./components/Event"
 function App() {
   const [hello, setHello] = useState("")
   const card = {name , profile} 
@@ -34,6 +35,7 @@ function App() {
         <p><GetProps id ={1} fullName ="Aldo Wiranata" /></p>
         <p><GetProps id ={2} fullName ="Aldo Wiranata2" /></p>
         <p><GetDatas /></p>
+        <p><Football/></p>
       </div>
     </>
   )
