@@ -10,6 +10,7 @@ import ClassComponent from "./components/Class"
 import {GetProps, GetDatas}  from "./components/Props"
 import Football from "./components/Event"
 import {Condition, Cars} from "./components/Condtion"
+import Lists from "./components/Lists"
 function App() {
   const [hello, setHello] = useState("")
   const card = {name , profile} 
@@ -40,6 +41,7 @@ function App() {
         <p><Condition/></p>
         <p><Cars name ={["Toyota" , "Avanza"]}/></p>
         <p><Cars name = "Mercy"/></p>
+        <p><Lists/></p>
       </div>
     </>
   )
