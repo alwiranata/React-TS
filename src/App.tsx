@@ -11,13 +11,14 @@ import {GetProps, GetDatas}  from "./components/Props"
 import Football from "./components/Event"
 import {Condition, Cars} from "./components/Condtion"
 import Lists from "./components/Lists"
+import Form from "./components/Form"
 function App() {
-  const [hello, setHello] = useState("")
-  const card = {name , profile} 
+  // const [hello, setHello] = useState("")
+  // const card = {name , profile} 
   return (
     <>
       <div>
-        <h1>Hello Wolrd</h1>
+        {/* <h1>Hello Wolrd</h1>
         <p>{hello}</p>
         <input
           type="text"
@@ -41,7 +42,8 @@ function App() {
         <p><Condition/></p>
         <p><Cars name ={["Toyota" , "Avanza"]}/></p>
         <p><Cars name = "Mercy"/></p>
-        <p><Lists/></p>
+        <p><Lists/></p> */}
+        <p><Form/></p>
       </div>
     </>
   )
